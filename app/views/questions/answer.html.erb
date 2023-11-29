@@ -1,0 +1,11 @@
+<p>
+  <div class="container mx-0 mb-3 p-3 border-start border-5">
+    <%= @question %>
+    <p class="m-0"><i>-You</i></p>
+  </div>
+  <div class="container mx-0 mb-3 p-3 border-start border-5 bg-warning text-dark bg-opacity-10">
+    <%= @answer %>
+    <p class="m-0"><i>-Your Coach</i></p>
+  </div>
+</p>
+<%= link_to "Ask a new question", ask_path, style: "text-decoration: none;" %>
